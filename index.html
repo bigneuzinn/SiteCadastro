@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+
+body {
+            background-image: url(IMG/images.jpg); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+          }
+
+.quadrado {
+          width: 800px; /* largura do quadrado */
+          height: 1000px; /* altura do quadrado */
+          margin-top: 300px;
+          background-color: rgb(74, 76, 77); /* cor de fundo do quadrado */
+          opacity: 70px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          border-radius: 20px;
+          margin-left: 250px;    
+          color: white;
+                
+}
+
+
+.cadastro {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(74, 76, 77);
+  
+}
+
+.borda {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.048);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 500px;
+    height: 650px;
+    margin-top: 100px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 30px rgba(27, 27, 27, 0.5);
+}
+
+.titulo1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    text-decoration: none;
+    top: -250px;
+}
+
+.Logo2 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.legenda1,
+.legenda2,
+.legenda3,
+.legenda4,
+.legenda5,
+.legenda6,
+.legenda7,
+.legenda8,
+.legenda9,
+.legenda10 {
+    font-size: 18px;
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: -20px;
+    color: rgb(255, 255, 255);
+    font-family: "Outfit", sans-serif;
+    
+}
+
+
+.valor1,
+.valor2,
+.valor3,
+.valor4,
+.valor5,
+.valor6,
+.valor7,
+.valor8,
+.valor9,
+.valor10{
+    margin-bottom: 5px;
+    background-color:rgba(255, 255, 255, 0);
+    height: 20px;
+    width: 320px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    font-family: "Outfit", sans-serif;
+    font-weight: 1000px;
+    padding: 10px;
+    border-bottom: 3px solid rgb(221, 221, 221);
+    outline: none;
+}
+
+.verificar {
+    height: 15px;
+    width: 15px;
+    font-family: "Outfit", sans-serif;
+}
+
+.BotaoEnviar {
+    font-family: "Outfit", sans-serif;
+    margin-top: 10%;
+    color: rgb(2, 1, 1);
+    opacity: 80%;
+    margin-left: 1435px;
+    margin-top: -800px;
+    height: 50px;
+    width: 230px;
+    font-size: 27px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    
+
+}
+
+.animacao {
+    height: 400px;
+    position: relative;
+    margin-top: 350px;
+    padding-left: 1400px;
+ 
+}
+
+.comentario {
+
+background-color: rgb(255, 255, 255);
+color: blue;
+border-radius: 20px;
+font-size: 50px;
+
+}
+
+.quadradoComentario {
+margin-left: 1200px;
+background-color: #c9a7d3;
+border-radius: 40px;
+margin-top: -1050px;
+height: 1020px;
+width: 560px;
+}
+
+.formulario {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+      </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="IMG/JV.png" alt="" class="Logo2"> 
+    <a class="titulo1" href="index.html">CADASTRO</a>
+    </div>
+ 
+
+
+
+    
+    <div class="Cadastro">
+    <div class="quadrado">
+        <form action="https://formsubmit.co/joaovictrdo@gmail.com" method="POST">
+            <br><br><br>
+            <h1 class="formulario">Preencha esse formulario</h1>
+            <br><br>
+            <label class="legenda1">-Nome</label>
+            <input  class="valor1" type="text" name="name" required>
+            <br><br><br>
+            <label class="legenda2">-Seu email</label>
+            <input  class="valor2"   type="email" name="email" required>
+            <br><br><br>
+            <label class="legenda3">-Telefone</label>
+            <input  class="valor3" type="text" name="name" required>
+            <br><br><br>
+            <label class="legenda4">-Rua</label>
+            <input  class="valor4" type="text" name="name" required>
+            <br><br><br>
+            <label class="legenda5">-Número</label>
+            <input  class="valor5" type="text" name="name" required>
+            <br><br><br>
+            <label class="legenda6">-Bairro</label>
+            <input  class="valor6" type="text" name="name" required>
+            <br><br><br>
+            <label class="legenda7">-Cidade</label>
+            <input  class="valor7" type="text" name="name" required>
+            <br><br><br>
+            <label class="legenda8">-CEP</label>
+            <input class="valor8" type="text" name="name" required>
+            <br><br><br>
+            <label class="legenda9">-Estado</label>
+            <input  class="valor9" type="text" name="name" required>
+            <br><br><br>
+            <label class="legenda10">-Observação</label>
+            <input class="valor10" type="text" name="name" required>
+            </form>
+      </div>
+    </div>
+      <label class="comentario">Digite a sua mensagem</label>
+      <br>
+      <textarea class="quadradoComentario" name="texto" id="" cols="60" rows="30"></textarea>
+      
+      <button class="BotaoEnviar" type="submit">Enviar</button>
+
+
+</body>
+</html>
+
+
